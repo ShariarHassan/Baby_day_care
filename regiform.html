@@ -3,11 +3,13 @@
 <head>
   <title>Register Form</title>
 </head>
+	<link rel="stylesheet" type="text/css" href="css/regi_style.css">
 <body>
   <center>
  <h3>Register here</h3>
  <form action="" method="">
-  <table>
+	 <div class="regi-box">
+	   <table>
    <tr>
     <td>Name :</td>
     <td><input type="text" name="username" required></td>
@@ -28,18 +30,25 @@
     </td>
    </tr>
    <tr>
-    <td>Email :</td>
+    <td>Email Id: </td>
     <td><input type="email" name="email" required></td>
    </tr> 
    <tr>
-    <td>Phone no :</td>
+    <td>Phone Number: </td>
     <td><input type="phone" name="phone" required>
+    </td>
+   </tr>
+	  <tr>
+    <td>Address: </td>
+    <td><input type="address" name="address" required>
     </td>
    </tr>
    <tr>
     <td><input type="submit" value="Submit"></td>
+	<td>already have an accout?<a href=""><br>click here to login</a></td>
    </tr>
   </table>
+	 </div>
  </form>
  </center>
 </body>
