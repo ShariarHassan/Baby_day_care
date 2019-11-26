@@ -7,12 +7,30 @@ body{
 }
 h3{
 	border-bottom: 6px solid #add;
-	border-style:dashed;
 	padding: 20px 20px 20px 20px;
 }
 .regi-box{
 	float: inherit;
-	font-size: 17px;
+	font-size: 16px;
 	padding: 20px 20px;
-	
+}
+input[type=text],input[type=password],input[type=email],input[type=phone],input[type=address]
+{
+width:440px;
+padding:1px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:14px;
+}
+input[type=submit]
+{
+width:80px;
+background-color:#2f90ff;
+color:#fff;
+border:1px solid #FFF;
+padding:2px;
+font-size:16px;
+cursor:pointer;
+border-radius:3px;
 }
